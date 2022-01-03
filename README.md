@@ -42,12 +42,12 @@ public class App
 ```
 ### 1.6 将项目导入IDEA中，并启动服务器，在浏览器上服务http://localhost:8080/hello
 ## 二 使用git命令将文件上传到gitHub
-2.1 在gitHub上创建一个public仓库命名mavenGitTest
-2.2 在使用git命令生成SSH令牌，命令如下:
+### 2.1 在gitHub上创建一个public仓库命名mavenGitTest
+### 2.2 在使用git命令生成SSH令牌，命令如下:
 <pre><code>ssh-keygen -t rsa -C "2776441252@qq.com" </code></pre>
-2.3 将生成的SHH令牌添加到仓库中
+### 2.3 将生成的SHH令牌添加到仓库中
 
-2.4 在项目根目录下打开git，依次执行如下命令：
+### 2.4 在项目根目录下打开git，依次执行如下命令：
 <pre><code>
 1、git init //初始化项目，执行完此命令后会生成一个.git文件夹
 2、git add . //将本地项目所有文件添加到git管理，.指全部文件
@@ -55,4 +55,4 @@ public class App
 4、git remote add origin 刚刚新建的Github地址 //将本地项目与远程git仓库关联
 5、git push -f origin master，强制将本地项目push到远程仓库。
 </code></pre>
-2.5 命令执行成功后在我的仓库中即存在项目的所有文件
+### 2.5 命令执行成功后在我的仓库中即存在项目的所有文件
