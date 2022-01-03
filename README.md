@@ -40,7 +40,7 @@ public class App
     }
 }
 ```
-### 1.6 启动服务器，在浏览器上服务http://localhost:8080/hello
+### 1.6 将项目导入IDEA中，并启动服务器，在浏览器上服务http://localhost:8080/hello
 ## 二 使用git命令将文件上传到gitHub
 2.1 在gitHub上创建一个public仓库命名mavenGitTest
 2.2 在使用git命令生成SSH令牌，命令如下:
